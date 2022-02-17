@@ -1,0 +1,40 @@
+{
+	"fileTypes": [
+	  "xml"
+	],
+	  "injectionSelector": "L:text.xml,",
+	  "patterns": [
+		{
+			"begin": "(<)(style)\\s?*(\\/?>)",
+			"end": "(</)(style)\\s?*(>)",
+			"beginCaptures": {
+				"1": {
+					"name": "punctuation.definition.tag.xml"
+				},
+				"2": {
+					"name": "entity.name.tag.localname.xml"
+				},
+				"3": {
+					"name": "punctuation.definition.tag.xml"
+				}
+			},
+			"endCaptures": {
+				"1": {
+					"name": "punctuation.definition.tag.xml"
+				},
+				"2": {
+					"name": "entity.name.tag.localname.xml"
+				},
+				"3": {
+					"name": "punctuation.definition.tag.xml"
+				}
+			},
+			"patterns": [
+				{
+					"include": "source.css"
+				}
+			]
+		}
+	  ],
+	  "scopeName": "xml.tag-css"
+  }

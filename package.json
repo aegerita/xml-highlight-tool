@@ -1,0 +1,29 @@
+{
+    "name": "macross-boo",
+    "displayName": "macross-boo",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.64.0"
+    },
+    "contributes": {
+        "grammars": [
+            {
+                "injectTo": ["text.xml"],
+                "scopeName": "inline.es6-javascript",
+                "path": "./syntaxes/javascript.tmLanguage.json",
+                "embeddedLanguages": {
+                    "meta.embedded.block.javascript": "javascript"
+                }
+            },
+            {
+                "injectTo": ["text.xml"],
+                "scopeName": "xml.tag-css",
+                "path": "./syntaxes/css.tmLanguage.json",
+                "embeddedLanguages": {
+                    "meta.embedded.block.css": "css"
+                }
+            }
+        ]
+    }
+}
