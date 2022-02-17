@@ -1,7 +1,8 @@
 {
-    "name": "macross-boo",
-    "displayName": "macross-boo",
-    "description": "",
+    "name": "xml-highlight-tool",
+    "displayName": "xml-highlight-tool",
+    "publisher": "jtai",
+    "description": "highlight the syntaxes of javascript and css inside xml files",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.64.0"

@@ -1,6 +1,8 @@
-# macross-boo README
+# xml-highlight-tool README
 
-This is the README for your extension "macross-boo". After writing up a brief description, we recommend including the following sections.
+This is the README for your extension "xml-highlight-tool". After writing up a brief description, we recommend including the following sections.
+
+To start using your extension with Visual Studio Code copy it into the `<user home>/.vscode/extensions` folder and restart Code.
 
 ## Features
 
